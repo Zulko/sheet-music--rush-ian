@@ -39,7 +39,7 @@
 \paper {
 
   system-system-spacing =
-    #'((basic-distance . 20) 
+    #'((basic-distance . 18) 
        (minimum-distance . 8)
        (padding . 1)
        (stretchability . 60)) 
@@ -80,14 +80,14 @@ right = \new Voice \with {
     d' f' e'' \acciaccatura{c''16 e''16} c''8
     dis' fis' d'' \acciaccatura{b'16 d''16} b'8
     e' gis' b'
-    <d'' f''>8  c'' \acciaccatura{c''16 d''16} c''8 b'  c'' d'' \acciaccatura{c''16 d''16} c''8 b'
-    <e'' c''>8  b' \acciaccatura{b'16 c''16 } b'8 a'  b' c'' \acciaccatura{b'16 c''16 } b'8 a'
+    <d'' f''>8  c'' \acciaccatura{c''16 d''16} c''8 b'  c'' d'' c''8 b'
+    <e'' c''>8  b' \acciaccatura{b'16 c''16 } b'8 a'  b' c''  b'8 a'
     <b' d''> e' gis' b' e'' d'' c'' b'
     \times 2/3 {a'8 gis' a'} \times 2/3 {b'8 cis'' d''-1} \times 2/3 {e''8 f'' g''} \times 2/3 {a''8-1 b'' cis'''}
     \ottava #1
-    <d''' f'''>8  c''' \acciaccatura{c'''16 d'''16} c'''8 b''  c''' d''' \acciaccatura{c'''16 d'''16} c'''8 b''
+    <d''' f'''>8  c''' \acciaccatura{c'''16 d'''16} c'''8 b''  c''' d''' c'''8 b''
 
-    <e''' c'''>8  b'' \acciaccatura{b''16 c'''16 } b''8 a''  b'' c''' \acciaccatura{b''16 c'''16 } b''8 a''
+    <e''' c'''>8  b'' \acciaccatura{b''16 c'''16 } b''8 a''  b'' c''' b''8 a''
     \times 2/3 {b''8-1 cis''' d'''} dis'''16 e'''-1 fis''' g'''
     gis''' a'''-1 b''' c'''' d''''-1 e'''' fis'''' gis''''
     <a'''' c''''>1
